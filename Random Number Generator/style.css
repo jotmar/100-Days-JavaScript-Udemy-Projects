@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.generator {
+  background-color: lightgreen;
+  width: 40rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+
+.generator > * {
+  margin-top: 1rem;
+}
+
+.generator h1 {
+  font-size: 2rem;
+}
+
+.generator hr {
+  color: black;
+}
+
+.generator span {
+  font-size: 4rem;
+}
+
+.generator button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(159, 255, 5);
+  font-size: 1.5rem;
+  padding: 1rem;
+}
