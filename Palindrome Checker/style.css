@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100vh;
+  background-color: yellow;
+}
+
+.checker {
+  width: 45rem;
+  background-color: deepskyblue;
+  border-radius: 1rem;
+}
+
+.checker > * {
+  color: white;
+  margin: 3rem 0;
+}
+
+.checker h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wordInput {
+  font-size: 2rem;
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 3px;
+  transition-duration: 0.5s;
+}
+
+.wordInput:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.checkButton {
+  font-size: 2rem;
+  padding: 0.3rem;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  background-color: white;
+  transition-duration: 0.5s;
+}
+
+.checkButton:hover {
+  background-color: rgb(170, 170, 170);
+}
+
+.result {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
