@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #fd1c53;
+}
+
+.counterDiv {
+  color: white;
+  width: 40rem;
+  background-color: #641cfd;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.counterDiv > * {
+  margin-bottom: 2.5rem;
+}
+
+.counterDiv input {
+  padding: 0.5rem;
+  border: solid 3px #9119e3;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.counterDiv button {
+  border: solid 3px #9119e3;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: whitesmoke;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+.counterDiv button:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+.counterDiv button:active {
+  background-color: gray;
+}
+
+.counterDiv span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition-duration: 0.5s;
+}
