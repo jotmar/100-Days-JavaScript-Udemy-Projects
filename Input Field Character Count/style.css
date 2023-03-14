@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.caracCounter {
+  text-align: center;
+  padding: 2rem;
+  background-color: teal;
+  border-radius: 5px;
+}
+
+.caracCounter > * {
+  color: mediumspringgreen;
+  margin-top: 0.5rem;
+}
+
+#counter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#inputArea {
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: mediumaquamarine;
+  outline: none;
+  border: 2px solid mediumspringgreen;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
