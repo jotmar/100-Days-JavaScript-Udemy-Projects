@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#selectedButton {
+  background-color: #bbeb17;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#instructions {
+  width: 33%;
+  height: 100vh;
+  padding: 2rem 2rem;
+  background-color: slategray;
+}
+
+#instructions > * {
+  margin-top: 1rem;
+  color: #bbeb17;
+}
+
+#instructions h1 {
+  font-size: 2em;
+}
+
+#instructions ol {
+  padding-left: 1.2rem;
+}
+
+#downloadMain {
+  margin: auto;
+}
+
+.downloadTab {
+  color: blueviolet;
+  padding: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.downloadTab nav {
+  display: flex;
+  width: 100%;
+}
+
+.downloadTab nav button {
+  width: 100%;
+  height: 2.5rem;
+  background-color: blueviolet;
+  color: white;
+  border: solid 1px black;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.downloadTab nav button:hover {
+  background-color: rgb(105, 32, 173);
+}
+
+.Embed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30rem;
+  border: 2px blueviolet solid;
+}
+
+.Embed > * {
+  margin-top: 10px;
+}
+
+.downloadArea {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadArea > * {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.downloadArea input {
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.downloadArea button {
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+}
+
+.downloadArea button:hover {
+  background-color: rgb(105, 32, 173);
+}
+
+.textArea {
+  position: relative;
+}
+
+.textArea textarea {
+  resize: none;
+}
+
+.textArea button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 0.2rem;
+}
+
+.textArea button:hover {
+  background-color: rgb(105, 32, 173);
+}
+
+.audioDirect {
+  display: none;
+}
+
+.videoDirect {
+  display: none;
+}

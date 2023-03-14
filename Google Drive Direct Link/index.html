@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Google Drive Direct Link</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="instructions">
+        <h1>Instructions</h1>
+        <hr />
+        <p>Follow the instructions below to get your Google Drive file link</p>
+        <hr />
+        <ol>
+          <li>Open <a href="https://drive.google.com/"></a></li>
+          <li>Right click on a file.</li>
+          <li>Select "Get link" and click "Copy link"</li>
+          <li>Paste the link here and click "Generate Direct Link" button</li>
+        </ol>
+      </div>
+      <div id="downloadMain">
+        <div class="downloadTab">
+          <header>
+            <h1>Google Direct Download Link Generator</h1>
+            <nav>
+              <button class="pasteTab" id="selectedButton">
+                &#x1F508;Paste Link
+              </button>
+              <button class="audioTab">&#x1F3A7; Embed Audio</button>
+              <button class="videoTab">&#x1F39E;Embed Video/Docs</button>
+            </nav>
+          </header>
+          <main>
+            <section class="Embed linkDirect">
+              <img src="images/drive_logo.png" alt="" />
+              <h1>Google Drive Link</h1>
+              <p>Paste your Google Drive File link below</p>
+              <div class="downloadArea">
+                <input type="text" alt="Drive Link" />
+                <button class="generateLinkButton">
+                  Generate Direct Download Link
+                </button>
+              </div>
+              <h2>Direct Download link</h2>
+              <div class="textArea">
+                <textarea name="" id="linkArea" cols="45" rows="12"></textarea>
+                <button class="copyButton">Copy</button>
+              </div>
+            </section>
+            <section class="Embed audioDirect">
+              <img src="images/drive_logo.png" alt="" />
+              <h1>Audio Embed Link</h1>
+              <p>
+                If your code was an Audio file, use the code snippet to embed it
+                on a web page.
+              </p>
+              <div class="textArea">
+                <textarea name="" id="linkArea" cols="45" rows="12"></textarea>
+                <button class="copyButton">Copy</button>
+              </div>
+            </section>
+            <section class="Embed videoDirect">
+              <img src="images/drive_logo.png" alt="" />
+              <h1>Video/Doc Embed Link</h1>
+              <p>
+                If your link was an Video or Document, use the code snippet to
+                embed it on a web page.
+              </p>
+              <div class="textArea">
+                <textarea name="" id="linkArea" cols="45" rows="12"></textarea>
+                <button class="copyButton">Copy</button>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
