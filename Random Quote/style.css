@@ -52,7 +52,8 @@ header a:hover {
 }
 
 .quoteArea {
-  width: 50vw;
+  max-width: 70vw;
+  min-width: 400px;
   background-color: #0cf25d;
   text-align: center;
   min-height: 200px;
