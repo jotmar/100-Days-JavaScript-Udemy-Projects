@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#geolocation {
+  width: 500px;
+  height: 300px;
+  text-align: center;
+}
+
+#geolocation > * {
+  margin: 10px 0;
+}
+
+#location {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+button {
+  padding: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: lightblue;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: gray;
+}
