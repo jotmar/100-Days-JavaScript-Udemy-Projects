@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --color1: #2361f8;
+  --color2: #1e86d9;
+  --color3: #2dccf0;
+  --color4: #1ed9c9;
+  --color5: #23f8a9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f74923;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quizBox {
+  background-color: var(--color5);
+  padding: 2em;
+  border: 2px solid var(--color4);
+  border-radius: 10px;
+  width: 600px;
+}
+
+.tittle {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  color: var(--color1);
+  background-color: rgba(136, 136, 136, 0.37);
+  padding: 10px;
+  border: 1px solid var(--color4);
+  border-radius: 10px;
+}
+
+#quiz {
+  display: block;
+}
+
+#quizRepeat {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#quizRepeat > * {
+  margin-bottom: 10px;
+}
+
+#remakeButton {
+  padding: 10px;
+  width: 200px;
+  background-color: var(--color1);
+  color: white;
+  font-weight: bold;
+  border: 2px solid var(--color3);
+  border-radius: 5px;
+  margin: auto;
+  transition-duration: 0.5s;
+}
+
+#remakeButton:hover {
+  background-color: var(--color2);
+}
+
+.quizHeader {
+  margin: 10px 0;
+}
+
+#questionMarker {
+  font-size: 1.2em;
+}
+
+#timer {
+  display: block;
+  background-color: var(--color3);
+  padding: 5px;
+  border-radius: 5px;
+  float: right;
+}
+
+#question {
+  color: var(--color1);
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+.buttons {
+  margin: 10px 0;
+  margin-bottom: 40px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: var(--color3);
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--color2);
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #f74923;
+}

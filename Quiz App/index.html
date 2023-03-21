@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div id="quizBox">
+          <div id="quiz">
+            <h1 class="tittle">JavaScript Quiz App</h1>
+            <div class="quizHeader">
+              <p id="questionMarker">
+                Question <span class="indexSpan">x</span> of
+                <span class="maxIndex">y</span>
+                <span id="timer">60</span>
+              </p>
+            </div>
+            <hr />
+            <p id="question">Question</p>
+            <hr />
+            <div class="buttons">
+              <button class="button">A. <span class="choice"></span></button>
+              <button class="button">B. <span class="choice"></span></button>
+              <button class="button">C. <span class="choice"></span></button>
+              <button class="button">D. <span class="choice"></span></button>
+            </div>
+            <hr />
+            <footer>
+              <p>ZinoTrust Tutorials</p>
+            </footer>
+          </div>
+          <div id="quizRepeat">
+            <h1 class="tittle">Quiz Completed</h1>
+            <p>
+              You scored: <span class="scoreSpan"></span> of
+              <span class="maxIndex"></span>
+            </p>
+            <button id="remakeButton">Take Quiz Again</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
