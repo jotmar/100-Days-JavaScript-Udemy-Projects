@@ -84,13 +84,37 @@ hr {
   background-color: var(--color1);
 }
 
-#quote,
-#author {
+#quoteNum {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1.2em;
+  width: 100px;
+  border: 1px solid var(--color1);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#numberP {
+  font-size: 1.2em;
+}
+
+.quote,
+.author {
   margin: 10px;
   color: black;
   font-size: 1.2em;
 }
 
-#author {
+.author {
   font-size: 1em;
+}
+
+.fullQuote {
+  margin: 20px 0;
+}
+
+.fullQuote .author {
+  text-decoration: underline;
 }
