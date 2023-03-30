@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weatherApp">
+        <h1>Weather App</h1>
+        <form autocomplete="off">
+          <input
+            type="text"
+            name="city"
+            id="iCity"
+            placeholder="Search by city name"
+          />
+          <input type="submit" value="SUBMIT" id="submit" />
+        </form>
+        <p id="warning">Please enter a valid city</p>
+        <p id="rainState">&#x1F327;</p>
+        <div class="description">
+          <p id="cityName">São Paulo, BR</p>
+          <p id="date">Friday, 27 Nov 2020</p>
+          <hr />
+          <p id="temp">Temp: 12C</p>
+          <p id="weather">Weather: Rain</p>
+          <p id="tempRange">Temp Range: 9C / 14C</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
