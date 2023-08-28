@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(45deg, blue, purple);
+}
+
+#timeCountdownBox {
+  background-color: rgb(76, 0, 255);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+}
+
+.counterTittle h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 5px;
+}
+
+.counterTimer {
+  background-color: rgba(51, 49, 56, 0.26);
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.counterTimer p {
+  font-size: 1.5rem;
+  margin: 5px;
+}
