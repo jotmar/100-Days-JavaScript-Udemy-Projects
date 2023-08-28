@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <header><p>Tip Calculator</p></header>
+        <main>
+          <section>
+            <form action="" id="billForm">
+              <p>
+                <label for="iBill">Bill:</label
+                ><input type="text" name="bill" id="iBill" placeholder="$" />
+              </p>
+              <hr />
+              <p>
+                <label for="iRate">Rate Service:</label>
+                <select name="rate" id="iRate">
+                  <option value="fair">5% - Fair</option>
+                  <option value="good">10% - Good</option>
+                  <option value="excellent">15% - Excellent</option>
+                </select>
+              </p>
+              <hr />
+              <button type="submit" id="calculateButton">Calculate</button>
+            </form>
+            <div class="errorWarn">
+              <p>Please enter a bill and rate service!</p>
+              <hr />
+            </div>
+          </section>
+          <section class="results">
+            <hr />
+            <div class="tip">
+              <p>Tip: $ <span id="tipAmount"></span></p>
+            </div>
+            <div class="totalBill">
+              <p>Total Bill: $ <span id="billAmount"></span></p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
