@@ -30,7 +30,7 @@ calculateButton.addEventListener('click', e => {
       default:
         break
     }
-    console.log(tip)
+    tip = Math.ceil(tip)
     const totalBill = billValue + tip
     tipRes.innerHTML = tip
     billRes.innerHTML = totalBill
