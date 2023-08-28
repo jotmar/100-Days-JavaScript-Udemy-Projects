@@ -33,6 +33,7 @@ body {
 .calculator header {
   display: block;
   text-align: center;
+  font-weight: bold;
   font-size: 2rem;
   background-color: rgb(135, 15, 182);
   padding: 15px;
