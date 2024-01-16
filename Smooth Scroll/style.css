@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: gray;
+}
+
+header {
+  background-color: rgb(136, 44, 173);
+  color: #99e637;
+  box-shadow: 2px 2px 2px black;
+}
+
+.headerDiv {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  padding: 10px;
+}
+
+.headerDiv h1 {
+  display: block;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.secList {
+  display: block;
+}
+
+.secList button {
+  background-color: #99e637;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: black;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 2px 2px black;
+  margin: 0px 1px;
+}
+
+.secList button:hover {
+  background-color: #6b9e29;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+main section {
+  max-width: 1100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 15px 0px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.secContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.secContainer p {
+  display: block;
+}
+
+.secImg {
+  width: 35rem;
+}
+
+.secContainer p {
+  font-weight: 600;
+  text-align: justify;
+  max-width: 600px;
+}
