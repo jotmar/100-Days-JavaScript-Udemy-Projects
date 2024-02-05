@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+/*  */
+/*  */
+/*  */
+
+header {
+  background-color: gray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header h1 {
+  color: orangered;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#menuBtn {
+  font-size: 0;
+}
+
+.headerWrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* MAIN */
+/*  */
+/*  */
+/*  */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+section {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 20px 40px 40px 40px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 40px;
+  align-items: center;
+}
+
+.img img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+.text p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.activeL {
+  color: orangered;
+  text-decoration: underline;
+}
